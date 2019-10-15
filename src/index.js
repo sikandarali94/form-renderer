@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/App';
+import FormRenderer from './components/FormRenderer/FormRenderer';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<FormRenderer formSchema={null} />, document.getElementById('root'));
